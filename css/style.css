@@ -8,7 +8,7 @@
 
 body {
     font-family: "Lato", sans-serif;
-    background-color: #0f172a;
+    background-color: #121212;
     color: #f8fafc;
 }
 
@@ -29,13 +29,13 @@ body {
 
     font-family: 'Lato';
     font-style: normal;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 18px;
 
     color: #FFFFFF;
 }
 
-.conteudo_1 .subtitulo{
+.conteudo_1 .subtitulo {
     position: absolute;
     width: 30%;
     left: 15%;
@@ -47,7 +47,7 @@ body {
     font-size: 20px;
 }
 
-.conteudo_1 .botao_1 a{
+.conteudo_1 .botao_1 a {
     position: absolute;
     width: 20%;
     left: 15%;
@@ -70,7 +70,7 @@ body {
     justify-content: center;
 }
 
-.conteudo_2{
+.conteudo_2 {
     position: absolute;
     width: 1513px;
     height: 93px;
@@ -90,3 +90,102 @@ body {
     justify-content: center;
 }
 
+.segunda_sessao {
+    position: relative;
+    padding-top: 120px;
+
+
+}
+
+.conteudo_3 h2 {
+    position: absolute;
+    width: 27%;
+    left: 15%;
+    top: -50px;
+
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+.conteudo_3 h2 .destaque {
+    color: #00A5DB;
+}
+
+.conteudo_3 .subtitulo-esquerda {
+    position: absolute;
+    width: 27%;
+    left: 15%;
+    top: 50px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.conteudo_3 .subtitulo-esquerda .destaque {
+    color: #00A5DB;
+}
+
+.conteudo_3 .subtitulo-direita {
+    position: absolute;
+    width: 27%;
+    right: 15%;
+    top: 50px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.linha-do-tempo {
+    position: absolute;
+    width: 192px;
+    height: 0px;
+    left: 639px;
+    top: 60px;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.destaque-linha {
+    position: absolute;
+    width: 97px;
+    height: 0px;
+    left: -1px;
+    top: -5px;
+
+    border: 5px solid #00A5DB;
+    z-index: 2;
+}
+
+.segunda_sessao .Titulo-2 {
+    position: absolute;
+    width: 50%;
+    left: 38%;
+    top: 250px;
+
+    font-family: 'Lato';
+    font-style: bolder;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: #00A5DB;
+
+    color: #FFFFFF;
+}
+
+.segunda_sessao .Titulo-2 .destaque {
+    color: #00A5DB;
+}
